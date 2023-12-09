@@ -4,6 +4,14 @@
 <head>
   <meta charset="utf-8">
   <title>Wrath</title>
+
+  <meta content="Lord X Wrath" property="og:title" />
+  <meta content="The best Lord X related FNF mod" property="og:description" />
+  <meta content="{{ current_url }};" property="og:url" />
+
+  {% set image = resize_image(path='content/img/big logo.png', width=500, height=300, op="fit") %}
+  <meta content="{{ image.url }}" property="og:image" />
+
 </head>
 
 <body>
